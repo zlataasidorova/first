@@ -4,6 +4,7 @@ params = {"limit" : 0}
 response = requests.get(url=url, params=params)
 response_json = response.json()
 comments = response_json["comments"]
-print(comments)
 for comment in comments :
-    print (comments) 
+    print (comment)
+    print (comment ["id"] )
+    print (comment ["body"] )
