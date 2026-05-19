@@ -1,4 +1,6 @@
 import requests
 url = "https://dummyjson.com/comments"
-response = requests.get(url)
+params = {"limit" : 0}
+response = requests.get(url, params=params)
+
 
