@@ -1,11 +1,12 @@
-name = "Alex"
-surname = 'Bush'
-nickname = """-"'Big brother'"-"""
-quote = "He said: 'Дорогу я не знаю.'"
+city = "Paris"
+country = "France"
+message = "France is a very beautiful country with amazing culture and food."
 
-print(surname)
-print(nickname)
-print(quote)
+print(city)
+print(country)
+print(message)
 
-my_hobbies = "теніс футбол і смачненько поїсти"
-print(my_hobbies)
+dialog = """Anna said; "I want to visit Paris!"
+Tom answered; 'It is one of the best cities in the world.'"""
+
+print(dialog)
